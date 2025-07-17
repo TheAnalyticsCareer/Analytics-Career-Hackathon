@@ -2,25 +2,7 @@ import { Link } from "react-router-dom";
 
 const Refund = () => (
   <>
-    <header className="bg-white shadow-sm border-b">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <Link to="/">
-            <img
-              src="https://d502jbuhuh9wk.cloudfront.net/logos/6677da88a7c70751b1bf34a8.png?v=1"
-              alt="Logo"
-              className="h-10 w-10 rounded"
-            />
-          </Link>
-          <span className="text-xl font-bold text-gray-900">AI Interviewer</span>
-        </div>
-        <nav className="flex items-center gap-6">
-          <Link to="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium">
-            Dashboard
-          </Link>
-        </nav>
-      </div>
-    </header>
+   
     <main className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Refund Policy</h1>
       <div className="overflow-y-auto max-h-[70vh] p-4 border rounded bg-white text-gray-800 text-sm space-y-4">
